@@ -7,12 +7,12 @@ import org.junit.runners.Parameterized;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
-public class CalculatorTest {
+public class CalculatorSumTest {
     private final int firstNumber;
     private final int secondNumber;
     private final int expected;
 
-    public CalculatorTest(int firstNumber, int secondNumber, int expected) {
+    public CalculatorSumTest(int firstNumber, int secondNumber, int expected) {
         this.firstNumber = firstNumber;
         this.secondNumber = secondNumber;
         this.expected = expected;
